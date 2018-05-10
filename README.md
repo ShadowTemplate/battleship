@@ -15,7 +15,7 @@ Freedom).
 
 **Development year(s)**: `2012`
 
-**Author(s)**: [https://github.com/frascu](https://github.com/frascu), 
+**Author(s)**: [frascu](https://github.com/frascu), 
 [ShadowTemplate](https://github.com/ShadowTemplate)
 
 **Notes**: *Our first C project.*
