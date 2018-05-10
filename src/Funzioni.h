@@ -1,0 +1,14 @@
+int CentraCursore ( int );
+void StampaPattern ( int );
+void ImpostaDimensioniFinestra ( void );
+void CreaImpostazioniDefault ( void );
+void CambiaNomeFinestra ( void );
+void ImpostaColore ( int );
+void PosizionaCursore ( int, int );
+void NascondiCursore ( void );
+void MostraCursore ( void );
+void FrecciaMenu ( int * );
+void StampaSfondoMenu ( void );
+void AcquisisciNome ( char *, int, int );
+void CancellaImpostazioniTemporanee ( void );
+int ControlloPresenzaFile ( char * );

@@ -1,0 +1,62 @@
+Nella battaglia navale due giocatori (ciascuno munito di due tabelle) si  sfidano alternando dei turni di gioco. Ogni tabella e' composta da 10x10  celle, identificate da coppie di coordinate, corrispondenti a riga e co-  lonna: si usano lettere (A-L) per le righe e numeri (0-9) per le colonne  (percio' le celle sono "A0", "A1", … e cosi' via fino a "L9").
+
+All'inizio della partita, i giocatori devono "posizionare le proprie navi"segnandole sulla prima delle loro due griglie (che terranno nascosta all' avversario per tutta la durata del gioco). La posizione delle navi non    puo' essere cambiata durante la partita.
+
+Ciascun giocatore ha da posizionare:
+> 1 nave di lunghezza 2 (sommergibile);
+> 2 navi di lunghezza 3 (incrociatori);
+> 1 nave di lunghezza 4 (torpediniere);
+> 1 nave di lunghezza 5 (portaerei).
+
+Una "nave" di lunghezza 2 occupa 2 celle adiacenti sulla tabella; una di  lunghezza 3 occupa 3 celle, e cosi' via. Le celle devono essere adiacenti:sara' possibile cioe' posizionare le proprie navi in modo verticale o     orizzontale (non diagonale). Due navi non possono toccarsi.
+
+Una volta posizionate le navi, il gioco procede a turni. Il giocatore che comincia la partita verra' scelto di comune accordo dai due partecipanti  al gioco. 
+
+Il giocatore di turno "spara un colpo" dichiarando una cella (per esempio,"C3"). L'avversario controlla sulla sua prima tabella se quella cella e'  occupata da una sua nave. In caso affermativo risponde "Colpito!", in casonegativo "Acqua!".
+Se il giocatore di turno colpisce una nave avversaria, marca la cella in  questione nella sua seconda tabella (che non va tenuta nascosta) con un   opportuno segno e l'avversario (che e' stato colpito) marca quella cella  della sua prima tabella con un opportuno segno.
+Se il giocatore di turno non colpisce una nave avversaria, marca la cella in questione nella sua seconda tabella con un opportuno segno, diverso da quello usato per il "Colpito!", mentre l'avversario non segna nulla ne'   sulla sua prima tabella, ne' sulla seconda tabella.
+In questo modo i giocatori possono ricordare i colpi che hanno sparato e/osubito ed il loro esito.
+
+Quando un colpo centra l'ultima cella di una nave non ancora affondata, ilgiocatore che subisce il colpo dovra' dichiarare "Colpito e affondato!", ela nave si considera persa.
+
+Se durante un turno un giocatore colpisce (ed eventualmente affonda) una  nave avversaria ha diritto a sparare un altro colpo. Il turno passa all'  avversario solo quando un giocatore fa "Acqua!".
+
+Vince il giocatore che per primo affonda tutte le navi dell'avversario. 
+
+---
+Parametri
+
+
+ Numero di giocatori 
+ E' possibile disputare uno scontro diretto tra 2 giocatori oppure, sele- 
+ zionando un numero maggiore di 2, disputare un torneo ad eliminazione    
+ diretta. I giocatori si sfideranno ordinatamente: 1 vs 2, 3 vs 4, ecc... 
+ rispettando l'ordine con cui sono stati inseriti i nomi inzialmente.     
+ Numero di navi 
+ Aumentando le dimensioni del campo sara' possibile assegnare piu' navi a 
+ ciascun giocatore. Sono stati posti dei limiti per evitare la possibili- 
+ ta' di avere uno spazio insufficiente a posizionare tutte le navi. Sono  
+ presenti limiti sia su ciascuna tipologia di nave sia sul numero totale. 
+
+
+---
+Comandi
+
+ 27 24 26 25 
+ Muovi il mirino 
+ INVIO 
+ Attacca 
+ ESC 
+ Esci 
+ F1 F2 F3 F4 
+ Scorri schema d'attacco 
+ F5 F6 F7 F8 
+ Scorri schema di difesa 
+ F9 
+ Salva 
+ F10 
+ Mostra aiuto 
+ \ 
+ Mostra punteggi 
+ TAB 
+ Mostra legenda colori 
